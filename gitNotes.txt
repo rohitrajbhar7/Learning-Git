@@ -1,0 +1,96 @@
+Git
+git is a version control system and it is used to co-rodinate the work among developers.
+
+Features:-
+Open source, scalable, distributed, security, speed , Branching and merging, staging area(preview of next commit)
+
+Benefits to use git:-
+Save time, offline working, undo mistakes, Track changes
+
+Practical knowledge started here
+
+git --version :- to know the current version of git that u r using.
+
+git --global config user.name "Rohit" :- set the global user name in your system.
+
+git --global config user.email "Rohitrajb7524@gmail.com" :- sets the global user email to your system
+
+git config --list :- it shows the list which contains you username and user email.
+
+
+
+
+Important Terminology
+
+Branch:- repository diverges(alag hona) from main working directory.
+
+checkout:- checkout is used for the act of switching between different versions of a target entities.
+
+clone:- making copy from the server.
+
+merge:- combining branches.
+
+origin:- remote repository from project was initially cloned.
+
+pull:- receive the data from the server(github).
+
+push:- upload local repository to the server.
+
+git ignore:- use for intentially untrack the file.(say to git just dont track the file)
+
+git diff:- show changes between commit , working tree etc.
+
+git rm:- for removing the files.
+
+cd file/folder name:- it is used to change the directory.
+
+ls:- shows the all given files in that folder/file.
+
+git init:- is used to initialise the git to your folder.
+
+git add fileName:- git add command is used to add the file into the staging area.
+
+git add -A:- used to add multiple/ all files to the staging area.
+
+git status:- it shows the status of file that it has been commited or not or ready for staging area or not etc.
+
+now your file has been added to the git and you need to commit it
+
+git commit -m "any comment(first commit)":- this command is used to commit the file/folder
+
+
+   Branch
+
+git branch --list :- this command will show you all the branches that a master contains.
+
+git branch login(any branch name):- this command create a branch in master.
+
+git checkout branch name:- this command just switch you for the particular which you want to switch.
+
+git branch -d branchName:- this command is used to delete the branch.
+
+git branch -b branchName:- this command is used to create a branch and switch to that same branch.
+
+
+
+uploading to files in github
+
+git remote add origin linkeOfRepository:- this command will add link you github account repository to the git so you can upload the file on github.\
+
+git remote -v :- this command is to see the active url of github to push the files
+
+git branch -M main:- if you need to send the file to github then chancge your master branch to main branch.
+
+git push -u origin main(branch name):- this command will just uplaod you branch to the github repository .
+
+
+
+
+cloning the file by pull request
+
+cd .. :- this command will just put you back the the file
+
+git clone url(https://github.com/rohitrajbhar7/Learning-Git.git):- this command will store the githib branch files to your computer file.
+
+
+
